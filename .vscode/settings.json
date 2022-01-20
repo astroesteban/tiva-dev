@@ -1,0 +1,6 @@
+{
+    "cortex-debug.gdbPath": "gdb-multiarch",
+    "files.associations": {
+        "stat.h": "c"
+    }
+}
