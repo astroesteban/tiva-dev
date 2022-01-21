@@ -20,8 +20,6 @@ set(CMAKE_TOOLCHAIN_FILE cmake/toolchain/tm4c.cmake)
 project(
     tm4c
     VERSION 0.1.0
-    DESCRIPTION "Run NASA's F Prime flight software on the Texas Instruments TM4C"
-    HOMEPAGE_URL "https://github.com/nasa/fprime"
     LANGUAGES C CXX
 )
 include(cmake/standard_project_settings.cmake)
