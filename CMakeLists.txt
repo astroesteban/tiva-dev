@@ -1,10 +1,4 @@
 ####
-# 'fprime-tm4c' Deployment:
-#
-# This sets up the build for the 'fprime-tm4c' library package, including the
-# custom components. In addition, it imports FPrime.cmake, which includes the
-# core F Prime components.
-#
 # To generate a dependency graph run:
 #   > cmake --graphviz=graph ..
 #   > dot graph -Tsvg -o graph.svg
