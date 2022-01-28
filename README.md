@@ -1,7 +1,7 @@
-# TM4C CMake Dev Environment
+# Tiva Dev
 
 A fully self-contained development environment for the Texas Instruments
-TM4C Launchpad.
+Tiva C Series Launchpads.
 
 ## Getting Started
 
@@ -10,8 +10,6 @@ TM4C Launchpad.
 - Docker
 - Visual Studio Code
 - [Remote Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
-- OpenOCD (if debugging on macOS)
-- [LM4Flash](https://github.com/utzig/lm4tools) (if debugging on macOS)
 
 ### Installing
 

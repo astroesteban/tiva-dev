@@ -16,7 +16,7 @@
             },
             "stopAtEntry": true,
             "externalConsole": false,
-            "runToMain": true,
+            "runToEntryPoint": "main",
             "MIMode": "gdb",
             "executable": "${workspaceRoot}/build/test/test_tm4c_blinky.elf",
             "request": "launch",
