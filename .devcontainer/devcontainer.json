@@ -7,7 +7,7 @@
 		// Update 'VARIANT' to pick an Ubuntu version: hirsute, focal, bionic
 		// Use hirsute or bionic on local arm64/Apple Silicon.
 		"args": { 
-			"VARIANT": "20.04"
+			"VARIANT": "22.04"
 		}
 	},
 
