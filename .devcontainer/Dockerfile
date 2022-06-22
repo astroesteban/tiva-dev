@@ -1,4 +1,4 @@
-ARG VARIANT="20.04"
+ARG VARIANT="22.04"
 FROM ubuntu:${VARIANT} as base
 
 ARG DEBIAN_FRONTEND=noninteractive
@@ -19,6 +19,7 @@ RUN apt-get update && apt-get install -y \
     libncurses-dev \
     gcc-arm-none-eabi \
     libnewlib-arm-none-eabi \
+    libstdc++-arm-none-eabi-newlib \
     gdb-multiarch \
     graphviz \
     && rm -rf /var/lib/apt/lists/* \
