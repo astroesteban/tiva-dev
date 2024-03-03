@@ -12,7 +12,7 @@ set(CMAKE_CROSSCOMPILING TRUE)
 # Without that flag CMake is not able to pass test compilation check
 set(CMAKE_TRY_COMPILE_TARGET_TYPE "STATIC_LIBRARY" CACHE STRING "Try Static Lib Type" FORCE)
 set(TARGET_MICROCONTROLLER "tm4c123gxl" CACHE STRING "The name of the target microcontroller" FORCE)
-message("Set the target microcontroller to the ${TARGET_MICROCONTROLLER}")
+message("-- Set the target microcontroller to the ${TARGET_MICROCONTROLLER}")
 
 # Set the GNU ARM toolchain
 set(CMAKE_AR            arm-none-eabi-ar)

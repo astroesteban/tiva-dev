@@ -28,8 +28,8 @@ include(cmake/linker.cmake)
 configure_linker(project_options)
 
 # project options
-option(USE_TIVAWARE "Download the TivaWare library" OFF)
-option(ENABLE_TESTING "Enable Test Builds" OFF)
+option(USE_TIVAWARE "Download the TivaWare library" ON)
+option(ENABLE_TESTING "Enable Test Builds" ON)
 
 add_subdirectory(boards)
 add_subdirectory(third-party)
