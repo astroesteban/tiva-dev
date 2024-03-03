@@ -21,7 +21,7 @@ include(cmake/prevent_in_source_builds.cmake)
 
 # link this 'library' to set the c++ standard / compile-time options requested
 add_library(project_options INTERFACE)
-target_compile_features(project_options INTERFACE cxx_std_11 c_std_11)
+target_compile_features(project_options INTERFACE cxx_std_20 c_std_23)
 
 # Add linker configuration
 include(cmake/linker.cmake)
