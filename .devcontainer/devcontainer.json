@@ -7,7 +7,7 @@
 		// Update 'VARIANT' to pick an Ubuntu version: hirsute, focal, bionic
 		// Use hirsute or bionic on local arm64/Apple Silicon.
 		"args": { 
-			"VARIANT": "22.04"
+			"VARIANT": "24.04"
 		}
 	},
 
@@ -15,6 +15,8 @@
 	"runArgs": [
 		"--privileged",
 		"--network=host",
+		"--ipc=host",
+		"--device=/dev/ttyUSB0", // <-- this wont work on mac os
 		"--cap-add=SYS_PTRACE",
 		"--security-opt=seccomp:unconfined",
 		"--security-opt=apparmor:unconfined"
@@ -26,10 +28,10 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-vscode.cpptools",
+				"ms-vscode.cpptools-extension-pack",
 				"cschlosser.doxdocgen",
-				"ms-vscode.cmake-tools",
-				"marus25.cortex-debug"
+				"marus25.cortex-debug",
+				"ms-vscode.vscode-serial-monitor"
 			]
 		}
 	},

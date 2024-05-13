@@ -3,6 +3,13 @@
 A fully self-contained development environment for the Texas Instruments
 Tiva C Series Launchpads.
 
+## About
+
+The TI TM4C was my introduction to embedded systems. It holds a very special
+place in my heart. One thing that I always disliked about developing for the
+TM4C board was having to use old and outdated IDEs. Thus, I wanted to make a
+modern development environment for the board.
+
 ## Getting Started
 
 ### Dependencies

@@ -1,4 +1,4 @@
-ARG VARIANT="22.04"
+ARG VARIANT="24.04"
 FROM ubuntu:${VARIANT} as base
 
 ARG DEBIAN_FRONTEND=noninteractive
